@@ -39,7 +39,17 @@
               <a href="index.html">Home</a>
             </li>
 
-            <li><a href="Html pages/courses.html">All Courses</a></li>
+            <li>
+              <select
+                onchange="if(this.value) window.location.href=this.value;"
+              >
+                <option value="" selected disabled>Courses</option>
+                <option value="Html%20pages/courses.html">Our Courses</option>
+                <option value="Html%20pages/courseDetails.html">
+                  Course Details
+                </option>
+              </select>
+            </li>
 
             <li>
               <a href="Html pages/quiz.html">Quiz</a>
