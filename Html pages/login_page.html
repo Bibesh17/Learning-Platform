@@ -8,38 +8,47 @@
   <body>
     <main>
       <h1>Welcome</h1>
-      <small>Welcome back! Please enter your Details </small><br /><br />
-      <label for="username">Email</label><br />
-      <input
-        type="email"
-        id="username"
-        placeholder="Enter your email"
-      /><br /><br />
-      <label for="password">password</label><br />
-      <input
-        type="password"
-        id="password"
-        placeholder="Enter your password"
-      /><br /><br />
+      <small>Welcome back! Please enter your details</small>
+      <br /><br />
 
-      <div>
-        <span>
-          <input type="checkbox" id="check" name="check" />
-          <label for="check">Remember me</label>
-        </span>
+      <form action="../index.html" method="post">
+        <label for="username">Email</label><br />
+        <input
+          type="email"
+          id="username"
+          name="username"
+          placeholder="Enter your email"
+          required
+        />
+        <br /><br />
 
-        <p>Forgot password</p>
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+        <br /><br />
 
-        <div>
-          <button type="button">Sign in</button>
-          <button type="button">Sign in with Google</button>
-        </div>
-        <br />
-        <small
-          >Don't have an account?
-          <a href="sign_up.html"><button>Sign up for free</button></a></small
-        >
-      </div>
+        <input type="checkbox" id="check" name="check" required />
+        <label for="check">Remember me</label>
+        <br /><br />
+
+        <button type="submit">Log in</button>
+      </form>
+
+      <br />
+
+      <button type="button">Sign in with Google</button>
+
+      <br /><br />
+
+      <small>
+        Don't have an account?
+        <a href="sign_up.html">Sign up for free</a>
+      </small>
     </main>
   </body>
 </html>
