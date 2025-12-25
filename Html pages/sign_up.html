@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <main>
+      <h1>Sign up</h1>
+      <br />
+      <form action="../index.html" method="post">
+        <div>
+          <label for="firstname">FirstName</label><br />
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="Enter your name"
+            required
+          /><br />
+
+          <label for="Last_name">Last Name</label><br />
+          <input
+            type="text"
+            id="Last_name"
+            name="Last_name"
+            placeholder="Enter your last name"
+            required
+          /><br />
+          <label for="password">Password</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          /><br />
+
+          <label for="password">Confirm password</label><br />
+          <input
+            type="password"
+            id="C_password"
+            name="C_password"
+            placeholder="Confirm your password"
+            required
+          /><br />
+          <label for="phone">Phone Number</label><br />
+          <input
+            type="tel"
+            placeholder="enter your phone"
+            id="phone"
+            required
+            pattern="[0-9]{10}"
+          />
+          <br />
+          <label for="country">Country</label><br />
+          <input type="text" id="country" required />
+          <br />
+          <input type="checkbox" id="check2" required />
+          <label for="check2"
+            >I accept privacy policy and general conditions</label
+          >
+        </div>
+        <br />
+        <a href="../index.html"
+          ><button type="submit" onclick="">Log in</button></a
+        >
+      </form>
+    </main>
+  </body>
+</html>
