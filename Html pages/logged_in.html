@@ -9,16 +9,6 @@
     <header>
       <div style="margin: 10px">
         <a>
-          <!-- <img
-            src="assets/neema.png"
-            alt="Neema Academy logo"
-            style="
-              width: 48px;
-              height: 48px;
-              object-fit: contain;
-              border-radius: 6px;
-            "
-          /> -->
           <div>
             <strong>Seema Academy</strong>
             <small>Learn & Grow</small>
@@ -36,7 +26,7 @@
             "
           >
             <li>
-              <a href="index.html">Home</a>
+              <a href="#">Home</a>
             </li>
 
             <li>
@@ -44,18 +34,20 @@
                 onchange="if(this.value) window.location.href=this.value;"
               >
                 <option value="" selected disabled>Courses</option>
-                <option value="Html%20pages/courses.html">Our Courses</option>
-                <option value="Html%20pages/courseDetails.html">
+                <option value="../Html%20pages/courses.html">
+                  Our Courses
+                </option>
+                <option value="../Html%20pages/courseDetails.html">
                   Course Details
                 </option>
               </select>
             </li>
 
             <li>
-              <a href="Html pages/quiz.html">Quiz</a>
+              <a href="../Html pages/quiz.html">Quiz</a>
             </li>
             <li>
-              <a href="Html pages/dashboard.html">Dashboard</a>
+              <a href="../Html pages/dashboard.html">Dashboard</a>
             </li>
           </ul>
         </nav>
@@ -74,12 +66,9 @@
 
           <button type="submit">Search</button>
         </div>
-        <br />
-        <a href="Html pages/login_page.html">
-          <div>
-            <button type="button">Log In</button>
-          </div>
-        </a>
+        <div>
+          <h2>Welcome [User]!</h2>
+        </div>
       </div>
       <section>
         <div>
@@ -104,7 +93,7 @@
 
         <figure>
           <img
-            src="assets/neema.png"
+            src="../assets/neema.png"
             alt="Academy"
             style="
               width: 100%;
@@ -159,6 +148,7 @@
               >LinkedIn</a
             >
           </p>
+          <a href="../index.html"><button type="button">Sign out</button></a>
         </div>
 
         <nav>
