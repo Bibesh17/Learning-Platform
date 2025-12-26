@@ -26,7 +26,7 @@
             "
           >
             <li>
-             <a href="../Html pages/logged_in.html">Home</a>
+              <a href="../index.html">Home</a>
             </li>
             <li>
               <a href="courses.html">Courses</a>
@@ -46,39 +46,37 @@
       <div>
         <h1>Test your knowledge</h1>
       </div>
-      <div>
-        <h2>1. What is the capital city of Nepal ?</h2>
-      </div>
-      <div>
-        <ol type="A">
-          <li><button type="button">Kathmandu</button></li>
-          <br />
-          <li><button type="button">Itahari</button></li>
-          <br />
-          <li><button type="button">Biratnagar</button></li>
-          <br />
-          <li><button type="button">Chitwan</button></li>
-          <br />
-          <br />
-        </ol>
-        <h2>2. What is the capital city of USA ?</h2>
 
-        <ol type="A">
-          <li><button type="button">Washington DC</button></li>
+      <div>
+        <form action="../Html pages/quiz1.html" method="post">
+          <p>What is the capital of Nepal:</p>
+          <input
+            type="radio"
+            id="Kathmandu"
+            name="place"
+            required
+            value="Kathmandu"
+          />
+          <label for="Kathmandu">Kathmandu</label><br />
+          <input type="radio" id="brt" name="place" value="brt" />
+          <label for="css">Biratnagar</label><br />
+          <input type="radio" id="pokhara" name="place" value="pokhara" />
+          <label for="pokhara">Pokhara</label>
+
           <br />
-          <li><button type="button">Itahari</button></li>
+
+          <p>Please select your age:</p>
+          <input type="radio" id="age1" name="age" required value="30" />
+          <label for="age1">0 - 30</label><br />
+          <input type="radio" id="age2" name="age" value="60" />
+          <label for="age2">31 - 60</label><br />
+          <input type="radio" id="age3" name="age" value="100" />
+          <label for="age3">61 - 100</label><br /><br />
+          <input type="submit" value="Next" />
+
           <br />
-          <li><button type="button">Biratnagar</button></li>
-          <br />
-          <li><button type="button">Chitwan</button></li>
-          <br />
-          <br />
-        </ol>
+        </form>
       </div>
-      <br />
-      <a href="../Html pages/quiz1.html">
-        <button type=" submit" id="submit1">Next</button></a
-      >
 
       <div style="text-align: center">
         <h3>progress: 2/4</h3>
@@ -86,18 +84,16 @@
     </main>
     <footer>
       <div>
-        <div>
-          <strong>Academy</strong>
-          <address>
-            Surya Complex, Imadol, Kathmandu<br />
-            <a href="tel:+9779829389034">+977 9829389034</a>
-          </address>
-          <p>
-            <a href="https://www.linkedin.com/in/bibesh-pokharel-70557b2aa/"
-              >LinkedIn</a
-            >
-          </p>
-        </div>
+        <strong>Academy</strong>
+        <address>
+          Surya Complex, Imadol, Kathmandu<br />
+          <a href="tel:+9779829389034">+977 9829389034</a>
+        </address>
+        <p>
+          <a href="https://www.linkedin.com/in/bibesh-pokharel-70557b2aa/"
+            >LinkedIn</a
+          >
+        </p>
 
         <nav>
           <div>
