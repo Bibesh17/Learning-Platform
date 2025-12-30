@@ -1,0 +1,38 @@
+html {
+  line-height: 1.45;
+  -webkit-text-size-adjust: 100%;
+  margin-top: 120px;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  background-color: rgb(156, 229, 229);
+  border-radius: 10px;
+  padding: 10px;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+}
+
+small {
+  font-size: 80%;
+}

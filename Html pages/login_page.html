@@ -4,61 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LOGIN_PAGE</title>
+    <link rel="stylesheet" href="../Css/login.css" />
   </head>
   <body>
     <main>
-      <h1>Welcome</h1>
-      <small>Welcome back! Please enter your details</small>
-      <br /><br />
-
-      <form action="logged_in.html" method="get"  >
-        <label for="username">User Name</label><br />
-        <input
-          type="text"
-          id="username"
-          name="username"
-          placeholder="Enter your User Name"
-          required
-        />
-        <br /><br />
-
-        <label for="email">Email</label><br />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email"
-          required
-        />
-        <br /><br />
-
-        <label for="password">Password</label><br />
-        <input
-          type="password"
-          id="password"
-          name="password"
-          placeholder="Enter your password"
-          required
-        />
-        <br /><br />
-
-        <input type="checkbox" id="check" name="check" />
-        <label for="check">Remember me</label>
-        <br /><br />
-
-        <button type="submit">Log in</button>
-      </form>
-
-      <br />
-
-      <button type="button">Sign in with Google</button>
-
-      <br /><br />
-
-      <small>
-        Don't have an account?
-        <a href="sign_up.html">Sign up for free</a>
-      </small>
+      <div>
+        <div>
+          <h1 class="">Welcome</h1>
+          <small>Welcome back! Please enter your details</small>
+        </div>
+        <div>
+          <form action="logged_in.html" method="get">
+            <label for="username">User Name</label><br />
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter your User Name"
+              required
+            />
+            <br />
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <br />
+            <label for="password">Password</label><br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
+            <br />
+            <input type="checkbox" id="check" name="check" />
+            <label for="check">Remember me</label>
+            <br />
+            <button type="submit">Log in</button>
+          </form>
+        </div>
+        <br />
+        <button type="button">Sign in with Google</button>
+        <br />
+        <small>
+          Don't have an account?
+          <a href="sign_up.html">Sign up for free</a>
+        </small>
+      </div>
     </main>
   </body>
 </html>
