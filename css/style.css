@@ -2,8 +2,9 @@
 @import url(login.css); */
 
 * {
-  background-color: #f6fbff;
+  background-color: #eff3f7;
   padding: 1.5px;
+  margin: 5px;
 }
 
 /* index page */
@@ -26,40 +27,58 @@
 }
 
 .index-main img {
-  width: max-content;
-  max-width: 20rem;
-  border-radius: 8px;
-  margin: 0 auto;
+  max-width: 400px;
+  border-radius: 18px;
   display: block;
   align-items: center;
+  height: 18rem;
+  object-fit: contain;
 }
 #figure {
   display: flex;
   justify-content: space-around;
+  margin-top: 56px;
 }
 #figure article {
   background-color: #8acee4;
   border-radius: 16px;
   padding: 6px;
+  height: 16rem;
+  margin-top: 20px;
 }
 
 .h41 {
   background-color: #8acee4;
 }
-
+.ul1 {
+  background-color: #8acee4;
+  margin: 16px;
+}
 .ul1 li {
   list-style: inside;
   background-color: #8acee4;
 }
 #video {
-  max-width: 80rem;
-  height: 30rem;
-  background-color: #000000;
-  margin: 10px;
+  max-width: 60rem;
+  height: 25rem;
+  margin: 10px auto auto 9rem;
+  border-radius: 16px;
 }
 
 #video video {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: fill;
+  border-radius: 16px;
+}
+
+/* footer css */
+footer {
+  margin: 16px auto auto 16px;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+ 
 }
