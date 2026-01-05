@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neema Academy</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body style="margin: 0; background: #ffffff">
+  <body>
     <header>
-      <div style="margin: 10px">
+      <div>
         <a>
           <div>
             <strong>Seema Academy</strong>
@@ -15,30 +16,14 @@
           </div>
         </a>
 
-        <nav>
-          <ul
-            style="
-              display: flex;
-
-              flex-direction: row;
-              justify-content: space-between;
-              margin-left: 400px;
-            "
-          >
+        <nav class="navigation" id="head-nav">
+          <ul class="nav-ul">
             <li>
               <a href="index.html">Home</a>
             </li>
 
             <li>
-              <select
-                onchange="if(this.value) window.location.href=this.value;"
-              >
-                <option value="" selected disabled>Courses</option>
-                <option value="Html%20pages/courses.html">Our Courses</option>
-                <option value="Html%20pages/courseDetails.html">
-                  Course Details
-                </option>
-              </select>
+              <a href="Html pages/courses.html">Courses</a>
             </li>
 
             <li>
@@ -51,27 +36,9 @@
         </nav>
       </div>
     </header>
-    <br /><br />
 
-    <main>
-      <div>
-        <div>
-          <input
-            type="search"
-            placeholder="search for anything"
-            id="coursesSearch"
-          />
-
-          <button type="submit">Search</button>
-        </div>
-        <br />
-        <a href="Html pages/login_page.html">
-          <div>
-            <button type="button">Log In</button>
-          </div>
-        </a>
-      </div>
-      <section>
+    <main class="index-main">
+      <section class="section">
         <div>
           <h1>Learn with confidence — anytime, anywhere</h1>
           <h3>
@@ -91,47 +58,36 @@
             <a href="#">Locate Us</a>
           </div>
         </div>
-
-        <figure>
-          <img
-            src="assets/neema.png"
-            alt="Academy"
-            style="
-              width: 100%;
-              max-width: 320px;
-              border-radius: 8px;
-              display: block;
-              margin: 0 auto;
-            "
-          />
-          <figcaption
-            style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem"
-          >
-            Seema Academy
-          </figcaption>
-        </figure>
       </section>
+      <br />
+
+      <div id="figure">
+        <article>
+          <h4 class="h41">Why choose us?</h4>
+          <ul class="ul1">
+            <li>Experienced local instructors</li>
+            <li>Flexible schedules</li>
+            <li>Practical, project-based learning</li>
+          </ul>
+        </article>
+        <figure>
+          <img src="assets/neema.png" alt="Academy" />
+        </figure>
+      </div>
 
       <section>
         <article>
           <h4>Featured Video</h4>
           <p>A short introduction to our courses and teaching approach.</p>
-          <video controls>
-            <source
-              src="https://www.w3schools.com/html/mov_bbb.mp4"
-              type="video/mp4"
-            />
-            learning.
-          </video>
-        </article>
-
-        <article>
-          <h4>Why choose us?</h4>
-          <ul>
-            <li>Experienced local instructors</li>
-            <li>Flexible schedules</li>
-            <li>Practical, project-based learning</li>
-          </ul>
+          <div id="video">
+            <video controls>
+              <source
+                src="https://www.w3schools.com/html/mov_bbb.mp4"
+                type="video/mp4"
+              />
+              learning.
+            </video>
+          </div>
         </article>
       </section>
     </main>
@@ -150,69 +106,83 @@
             >
           </p>
         </div>
+        <div>
+          <!-- <div>
+          <input
+            type="search"
+            placeholder="search for anything"
+            id="coursesSearch"
+          />
+
+          <button type="submit">Search</button>
+        </div> -->
+          <br />
+          <a href="Html pages/login_page.html">
+            <div>
+              <button type="button">Log In</button>
+            </div>
+          </a>
+        </div>
 
         <nav>
           <div>
-            <h3>Click here for the Know more about our Company</h3>
-            <details>
-              <div style="display: flex">
-                <ul>
-                  About Us
-                  <li>
-                    <a href="#">About</a>
-                  </li>
-                  <li>
-                    <a href="#">Careers</a>
-                  </li>
-                  <li>
-                    <a href="#">Blog</a>
-                  </li>
-                  <li>
-                    <a href="contact">Contact</a>
-                  </li>
-                </ul>
-                <ul>
-                  Discover Seema Academy
-                  <li>
-                    <a href="#">Contact Our Hr</a>
-                  </li>
-                  <li>
-                    <a href="#">Get the app</a>
-                  </li>
-                  <li>
-                    <a href="#">Plans and pricing</a>
-                  </li>
-                  <li>
-                    <a href="#">Help and Support</a>
-                  </li>
-                </ul>
+            <div style="display: flex; justify-content: space-around">
+              <ul>
+                About Us
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="contact">Contact</a>
+                </li>
+              </ul>
+              <ul>
+                Discover Seema Academy
+                <li>
+                  <a href="#">Contact Our Hr</a>
+                </li>
+                <li>
+                  <a href="#">Get the app</a>
+                </li>
+                <li>
+                  <a href="#">Plans and pricing</a>
+                </li>
+                <li>
+                  <a href="#">Help and Support</a>
+                </li>
+              </ul>
 
-                <ul>
-                  Seema Academy for Business
-                  <li>
-                    <a href="#">Seema Business</a>
-                  </li>
-                  <li>
-                    <a href="#">Seema Pulication</a>
-                  </li>
-                </ul>
-                <ul>
-                  Legal and Accebility
-                  <li>
-                    <a href="#">Legal Statement</a>
-                  </li>
-                  <li>
-                    <a href="#">Accebility Statement</a>
-                  </li>
-                  <li>
-                    <a href="#">privacy policy</a>
-                  </li>
-                  <li>
-                    <a href="#">Terms</a>
-                  </li>
-                </ul>
-              </div>
-            </details>
+              <ul>
+                Seema Academy for Business
+                <li>
+                  <a href="#">Seema Business</a>
+                </li>
+                <li>
+                  <a href="#">Seema Pulication</a>
+                </li>
+              </ul>
+              <ul>
+                Legal and Accebility
+                <li>
+                  <a href="#">Legal Statement</a>
+                </li>
+                <li>
+                  <a href="#">Accebility Statement</a>
+                </li>
+                <li>
+                  <a href="#">privacy policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </div>

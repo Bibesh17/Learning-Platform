@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neema Academy</title>
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body style="margin: 0; background: #ffffff">
-    <header>
+     <header class="main-nav">
       <div style="margin: 10px">
         <a>
           <div>
@@ -15,32 +16,15 @@
           </div>
         </a>
 
-        <nav>
-          <ul
-            style="
-              display: flex;
-
-              flex-direction: row;
-              justify-content: space-between;
-              margin-left: 400px;
-            "
+         <nav class="navigation">
+         <ul class="nav-ul"
           >
             <li>
               <a href="#">Home</a>
             </li>
 
             <li>
-              <select
-                onchange="if(this.value) window.location.href=this.value;"
-              >
-                <option value="" selected disabled>Courses</option>
-                <option value="../Html%20pages/courses.html">
-                  Our Courses
-                </option>
-                <option value="../Html%20pages/courseDetails.html">
-                  Course Details
-                </option>
-              </select>
+              <a href="../Html pages/courses.html">Courses</a>
             </li>
 
             <li>
