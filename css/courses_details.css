@@ -1,0 +1,10 @@
+.course-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.contents{
+background-color: beige;
+}
