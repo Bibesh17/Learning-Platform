@@ -36,21 +36,28 @@
 }
 #figure {
   display: flex;
-  justify-content: space-around;
   margin-top: 56px;
+  gap: 60px;
 }
-#figure article {
+#figure #offer {
   background-color: #a1d3e4;
   border-radius: 16px;
   padding: 6px;
-  height: 16rem;
+  height: 12rem;
   margin-top: 20px;
+  display: grid;
+
+  gap: 28px;
 }
 
-#figure div {
+#figure .offer-btn {
+  background-color: #a1d3e4;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+#figure #imgage1-div {
   width: 49rem;
   height: 29rem;
-
   overflow: hidden;
   border-radius: 12px;
 }
@@ -64,6 +71,10 @@
 }
 .ul1 li {
   list-style: inside;
+  background-color: #a1d3e4;
+}
+
+article p {
   background-color: #a1d3e4;
 }
 #video {
