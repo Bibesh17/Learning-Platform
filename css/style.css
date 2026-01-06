@@ -27,12 +27,11 @@
 }
 
 .index-main img {
-  max-width: 400px;
   border-radius: 18px;
   display: block;
   align-items: center;
-  height: 18rem;
-  object-fit: contain;
+
+  max-height: 25rem;
 }
 #figure {
   display: flex;
@@ -47,6 +46,15 @@
   margin-top: 20px;
 }
 
+#figure div {
+  width: 50rem;
+  height: 26rem;
+  border-color: #08ade6;
+  border-width: 1px;
+  border-style: solid;
+  object-fit: cover;
+}
+
 .h41 {
   background-color: #a1d3e4;
 }
@@ -59,9 +67,9 @@
   background-color: #a1d3e4;
 }
 #video {
-  max-width: 60rem;
+  max-width: 80%;
   height: 25rem;
-  margin: 10px auto auto ;
+  margin: 10px auto auto;
   border-radius: 16px;
 }
 
@@ -70,6 +78,10 @@
   height: 100%;
   object-fit: fill;
   border-radius: 16px;
+}
+
+#video #inde {
+  text-align: center;
 }
 
 /* footer css */
