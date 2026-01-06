@@ -61,7 +61,7 @@
 #video {
   max-width: 60rem;
   height: 25rem;
-  margin: 10px auto auto 9rem;
+  margin: 10px auto auto ;
   border-radius: 16px;
 }
 

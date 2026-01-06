@@ -1,24 +1,17 @@
-
 .course-grid {
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 2rem;
-}
-
-.video{
- margin-left: 1px;
-}
-.contents {
-  background-color: beige;
+  margin-left: -10px;
 }
 
 .course-panel {
   width: 360px;
   height: 500px;
-  border: 1px solid #ddd;
+  border: 2px solid #060606;
   border-radius: 8px;
   font-family: system-ui, sans-serif;
-  background: #fff;
+
   display: flex;
   flex-direction: column;
 }
@@ -77,6 +70,7 @@
 }
 
 .section summary {
+  display: block;
   cursor: pointer;
   padding: 10px;
   background-color: #f3f3f3;
@@ -84,6 +78,9 @@
   font-weight: 600;
 }
 
+.section summary:hover {
+  background-color: #938c8c;
+}
 .section[open] summary {
   background-color: #e6f2ff;
 }
@@ -91,4 +88,16 @@
 .lesson-list {
   padding-left: 20px;
   margin-top: 10px;
+}
+
+#learn {
+  padding: 16px;
+}
+
+#learn ul {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  list-style: inside;
 }
