@@ -27,11 +27,12 @@
 }
 
 .index-main img {
-  border-radius: 18px;
-  display: block;
-  align-items: center;
+  width: 48rem;
+  height: 28rem;
 
-  max-height: 25rem;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
 }
 #figure {
   display: flex;
@@ -47,12 +48,11 @@
 }
 
 #figure div {
-  width: 50rem;
-  height: 26rem;
-  border-color: #08ade6;
-  border-width: 1px;
-  border-style: solid;
-  object-fit: cover;
+  width: 49rem;
+  height: 29rem;
+
+  overflow: hidden;
+  border-radius: 12px;
 }
 
 .h41 {
