@@ -7,6 +7,11 @@
   margin: 5px;
 }
 
+#index-main {
+  margin: 10px;
+  padding: 8px;
+}
+
 /* index page */
 /* navigation */
 .nav-ul {
@@ -26,14 +31,6 @@
   color: #08ade6;
 }
 
-.index-main img {
-  width: 48rem;
-  height: 28rem;
-
-  border-radius: 16px;
-  justify-content: center;
-  align-items: center;
-}
 #figure {
   display: flex;
   margin-top: 56px;
@@ -46,20 +43,20 @@
   height: 12rem;
   margin-top: 20px;
   display: grid;
-
-  gap: 28px;
+  gap: 42px;
 }
 
-#figure .offer-btn {
-  background-color: #a1d3e4;
-  border-radius: 16px;
-  margin-top: 20px;
-}
-#figure #imgage1-div {
-  width: 49rem;
-  height: 29rem;
+#image1-div {
   overflow: hidden;
   border-radius: 12px;
+  max-height: auto;
+  max-width: auto;
+}
+#image1-div img {
+  border-radius: 16px;
+  height: 29rem;
+  width: 48rem;
+  object-fit: fill;
 }
 
 .h41 {
@@ -67,7 +64,7 @@
 }
 .ul1 {
   background-color: #a1d3e4;
-  margin: 16px;
+  margin-top: -18px;
 }
 .ul1 li {
   list-style: inside;
@@ -77,6 +74,45 @@
 article p {
   background-color: #a1d3e4;
 }
+
+/* offer button */
+
+#figure .offer-btn {
+  background-color: #16458c;
+  border-radius: 16px;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.offer-btn .h41 {
+  background-color: #16458c;
+  font-weight: bolder;
+}
+
+.offer-btn p {
+  background-color: #16458c;
+}
+.offer-btn strong {
+  background-color: #16458c;
+  font-size: x-large;
+  margin-left: 12px;
+}
+.offer-btn button {
+  width: 10rem;
+  height: 2rem;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: grab;
+}
+
+/* new year photo */
+#newyear,
+span {
+  height: 5rem;
+  background-color: #16458c;
+}
+
 #video {
   max-width: 80%;
   height: 25rem;
