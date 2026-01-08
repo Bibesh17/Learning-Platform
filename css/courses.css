@@ -16,8 +16,8 @@
 }
 .description {
   position: absolute;
-  left: 220px;
-  width: 220px;
+  left: 230px;
+  width: 230px;
   padding: 20px;
   height: 200px;
   background-color: white;
@@ -27,18 +27,19 @@
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease;
+  border-radius: 12px;
 }
 
 .card:hover .description {
   visibility: visible;
   opacity: 1;
 }
-.description ul,
-li {
-  list-style-type: circle;
-  list-style-position: inside;
+.description ul {
   background-color: white;
-  padding: 2px;
+}
+
+.description li {
+  background-color: white;
 }
 
 img {
@@ -47,6 +48,7 @@ img {
   height: 100%;
   border-style: solid;
   border-color: black;
+  border-width: medium;
 }
 
 #container h4 {
