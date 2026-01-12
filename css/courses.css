@@ -38,6 +38,29 @@
   z-index: 10;
 }
 
+.description1 {
+  position: absolute;
+  right: 240px;
+  width: 240px;
+  padding: 15px;
+  height: auto;
+  background-color: white;
+  color: black;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in, transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateX(10px);
+  z-index: 10;
+}
+.card:hover .description1 {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .card:hover .description {
   visibility: visible;
   opacity: 1;
