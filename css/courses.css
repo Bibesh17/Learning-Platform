@@ -1,7 +1,19 @@
+body {
+  padding: 1.5px;
+  margin: 5px;
+}
+
+body div {
+  margin: 8px;
+  margin-bottom: 1em;
+  padding: auto;
+}
+
 .container {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1rem;
+  height: 20rem;
   justify-content: center;
   margin: 2rem;
   flex-wrap: wrap;
@@ -15,6 +27,7 @@
 
 .card1 {
   position: relative;
+  height: auto;
 }
 .card {
   position: relative;
@@ -97,10 +110,9 @@ a {
   border-radius: 4px;
 }
 
-.skills_div {
-  margin-top: 12rem;
-  border-style: solid;
-  border-width: 1cm;
+#skills {
+  margin-top: 2rem;
+ 
 }
 
 .min-div {
