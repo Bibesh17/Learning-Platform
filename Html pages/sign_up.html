@@ -4,49 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/login.css" />
   </head>
   <body>
-    <div>
+    <main>
       <h1>Sign up</h1>
-      <br />
       <form action="../Html pages/logged_in.html" method="get">
         <div>
-          <label for="firstname">FirstName</label><br />
+          <label for="firstname">First Name</label>
           <input
             type="text"
             id="firstname"
             name="firstname"
             placeholder="Enter your name"
             required
-          /><br />
+          />
 
-          <label for="Last_name">Last Name</label><br />
+          <label for="Last_name">Last Name</label>
           <input
             type="text"
             id="Last_name"
             name="Last_name"
             placeholder="Enter your last name"
             required
-          /><br />
-          <label for="password">Password</label><br />
+          />
+          <label for="password">Password</label>
           <input
             type="password"
             id="password"
             name="password"
             placeholder="Enter your password"
             required
-          /><br />
+          />
 
-          <label for="password">Confirm password</label><br />
+          <!-- <label for="password">Confirm password</label>
           <input
             type="password"
             id="C_password"
             name="C_password"
             placeholder="Confirm your password"
-            required
-          /><br />
-          <label for="phone">Phone Number</label><br />
+            required -->
+          
+          <label for="phone">Phone Number</label>
           <input
             type="tel"
             placeholder="enter your phone"
@@ -54,7 +53,7 @@
             required
             pattern="[0-9]{10}"
           />
-          <br /><br />
+
           <label for="country">Country</label>
           <select id="country" required>
             <option>Nepal</option>
@@ -66,9 +65,9 @@
             >I accept privacy policy and general conditions</label
           >
         </div>
-        <br />
+        
         <button type="submit">Log in</button>
       </form>
-    </div>
+    </main>
   </body>
 </html>

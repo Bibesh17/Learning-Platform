@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(135deg, #dff5ee, #b7e4d8);
+  font-family: "Times New Roman", Times, serif;
+}
+
+main {
+  background-color: #a1d3e4;
+  padding: 2rem;
+  margin: 2rem;
+  height: 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+  justify-self: center;
+  border-radius: 16px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  width: 20rem;
+  padding: 12px 14px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #050505bb;
+  margin-left: 10px;
+}
+
+button {
+  width: 4rem;
+  height: 2rem;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: grab;
+}
+
+button:hover {
+  background-color: #a1d3e4;
+  margin-bottom: 10px;
+}
+h1 {
+  color: #1b7d6be8;
+  margin-bottom: 4px;
+}
+
+small {
+  font-weight: 700;
+  font-style: oblique;
+  opacity: 0.8;
+}
+
+select{
+    background-color: rgba(116, 181, 181, 0.95);
+    margin: 10px;
+
+}
+form{
+    margin-top: 10px;
+}

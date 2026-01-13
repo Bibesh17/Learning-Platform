@@ -1,7 +1,6 @@
 body {
   background-color: #dadee7;
-  padding: 12px;
-  margin: 5px;
+ 
 }
 
 #index-main {
@@ -92,7 +91,7 @@ main .offer-btn p {
   font-size: x-large;
   margin-left: 12px;
 }
-.offer-btn button {
+button {
   width: 10rem;
   height: 2rem;
   margin: 10px;
@@ -100,7 +99,7 @@ main .offer-btn p {
   cursor: grab;
 }
 
-.offer-btn button:hover {
+button:hover {
   background-color: #a1d3e4;
 }
 
