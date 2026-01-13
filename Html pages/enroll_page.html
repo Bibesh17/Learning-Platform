@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>course details</title>
+    <title>Enroll Page</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/courses_details.css" />
   </head>
@@ -53,9 +53,7 @@
               <div id="intro">
                 <h2>Web Development full course series</h2>
                 <p>Bibesh Pokharel | ★★★★★ 4.5</p>
-                <a href="enroll_page.html"
-                  ><button type="button">Enroll Course</button></a
-                >
+                <button type="button">Continue Course</button>
               </div>
             </div>
 
@@ -85,7 +83,7 @@
 
                   <li>
                     <label>
-                      <input type="checkbox" />
+                      <input type="checkbox" checked />
                       <span class="title">3. Lets talk about AI hype</span>
                     </label>
                   </li>
@@ -292,39 +290,32 @@
           </li>
         </ul>
       </div>
-      <!-- skills section -->
 
-      <div id="skill1">
-        <h2>Skills you will learn</h2>
-        <button type="button">HTML</button>
-        <button type="button">CSS</button>
-        <button type="button">JavaScript</button>
-        <button type="button">React</button>
-        <button type="button">UI/UX</button>
-        <button type="button">API</button>
-        <button type="button">Web App</button>
-        <button type="button">GIT</button>
+      <div>
+        <h2>Course content</h2>
+        <ul>
+          <li>
+            <button
+              type="button"
+              id="button1"
+              onclick="window.location.href='https://www.youtube.com/watch?v=k3KqQvywToE&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=2'"
+            >
+              Lesson item 1
+            </button>
+          </li>
+          <li>
+            <button
+              type="button"
+              id="button2"
+              onclick="window.location.href='https://www.youtube.com/watch?v=yNbnA5pryMg&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=3'"
+            >
+              Lesson item 2
+            </button>
+          </li>
+        </ul>
       </div>
-
-      <h2>Why people choose Seema Academy for their career</h2>
-      <div id="review">
-        <div>
-          <img src="../assets/review.png" alt="messi Review" />
-        </div>
-        <div>
-          <p>
-            "The Web Development course at Seema Academy is exceptional. It
-            takes you from basic HTML/CSS to complex full-stack projects with
-            ease. The curriculum is modern, the mentors are supportive, and I
-            finished the program with a portfolio I’m actually proud of. A
-            must-join for aspiring developers!"
-          </p>
-
-          <h4>- Lionel Magar</h4>
-          <caption>
-            Frontend Aspirent (Learning from Argentina)
-          </caption>
-        </div>
+      <div>
+        <input type="text" placeholder="please give your review" />
       </div>
     </main>
 
