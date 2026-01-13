@@ -8,337 +8,317 @@
     <link rel="stylesheet" href="../css/courses_details.css" />
   </head>
   <body>
-    <div>
+    <header>
       <div>
-        <header class="main-nav">
-          <div style="margin: 10px">
-            <div>
-              <strong>Seema Academy</strong>
-              <small>Learn & Grow</small>
+        <a>
+          <div>
+            <strong>Seema Academy</strong>
+            <small>Learn & Grow</small>
+          </div>
+        </a>
+        <nav class="navigation" id="head-nav">
+          <ul class="nav-ul">
+            <li>
+              <a href="../index.html">Home</a>
+            </li>
+
+            <li>
+              <a href="../Html pages/courses.html">Courses</a>
+            </li>
+
+            <li>
+              <a href="../Html pages/quiz.html">Quiz</a>
+            </li>
+            <li>
+              <a href="../Html pages/dashboard.html">Dashboard</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="div1">
+        <section>
+          <div class="course-grid">
+            <div id="video12" name="video">
+              <video controls>
+                <source
+                  src="https://www.w3schools.com/html/mov_bbb.mp4"
+                  type="video/mp4"
+                />
+
+                learning.
+              </video>
+              <div id="intro">
+                <h2>Web Development full course series</h2>
+                <p>Bibesh Pokharel | ★★★★★ 4.5</p>
+                <button type="button">Continue Course</button>
+              </div>
             </div>
 
-            <nav class="navigation">
-              <ul class="nav-ul">
-                <li>
-                  <a href="../index.html">Home</a>
-                </li>
-                <li class="font-size">
-                  <a href="courses.html">Courses</a>
-                </li>
+            <!-- Course sections -->
+            <div id="course-panel">
+              <h3>Course content</h3>
 
-                <li>
-                  <a href="quiz.html">Quiz</a>
-                </li>
-                <li>
-                  <a href="dashboard.html">Dashboard</a>
-                </li>
-              </ul>
-            </nav>
+              <details class="section">
+                <summary class="section-header">
+                  Section 1: Before web dev Journey
+                </summary>
+
+                <ul class="lesson-list">
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title">1. Course Introduction</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title">2. Meet your Instructor</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" checked />
+                      <span class="title">3. Lets talk about AI hype</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" checked />
+                      <span class="title">4. Jobs salary range and skills</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title"
+                        >5. What tools you need for web development</span
+                      >
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title"
+                        >6. How to setup your code editor</span
+                      >
+                    </label>
+                  </li>
+                </ul>
+              </details>
+
+              <!-- section 2 -->
+
+              <details class="section">
+                <summary class="section-header">Section 2: Learn HTML</summary>
+
+                <ul class="lesson-list">
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title">1. HTML Introduction</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title"
+                        >2. Emmet headings , Block and Inline</span
+                      >
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" checked />
+                      <span class="title">3. Tables and forms</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" checked />
+                      <span class="title"
+                        >4. Building a Sementic HTML Page</span
+                      >
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title">5. Multimedia and Aria in HTML</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title">6. Quiz on HTML</span>
+                    </label>
+                  </li>
+                </ul>
+              </details>
+
+              <details class="section">
+                <summary class="section-header">
+                  Section 3: Advanced CSS
+                </summary>
+
+                <ul class="lesson-list">
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title">1. CSS Introduction</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title"
+                        >2. Type and current state of CSS</span
+                      >
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" checked />
+                      <span class="title">3. MasterClass on CSS Selectors</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" checked />
+                      <span class="title">4. Grid vs Flexbox</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title"
+                        >5. Dropdown Navbar and Specificity</span
+                      >
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title">6. A Quiz on CSS</span>
+                    </label>
+                  </li>
+                </ul>
+              </details>
+              <!-- section 4 -->
+              <details class="section">
+                <summary class="section-header">Section 4: Java script</summary>
+
+                <ul class="lesson-list">
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title">1. Course Introduction</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title">2. Meet your Instructor</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" checked />
+                      <span class="title">3. Lets talk about AI hype</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" checked />
+                      <span class="title">4. Jobs salary range and skills</span>
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title"
+                        >5. What tools you need for web development</span
+                      >
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="title"
+                        >6. How to setup your code editor</span
+                      >
+                    </label>
+                  </li>
+                </ul>
+              </details>
+            </div>
           </div>
-        </header>
+        </section>
+      </div>
+      <div id="learn">
+        <ul>
+          What you'll learn
+          <li>Learn the Basics of HTML5, CSS3, JavaScript and react.</li>
+          <li>Advanced CSS and JavaScript from beggining to pro-level.</li>
+          <li>
+            Real-World React Development Skills. You will gain practical
+            experience by building projects, integrating APIs, and following
+            best practices .
+          </li>
+        </ul>
       </div>
 
-      <main>
-        <div id="video-div">
-          <section>
-            <div class="course-grid">
-              <div id="video" name="video">
-                <video controls>
-                  <source
-                    src="https://www.w3schools.com/html/mov_bbb.mp4"
-                    type="video/mp4"
-                  />
+      <div>
+        <h2>Course content</h2>
+        <ul>
+          <li>
+            <button
+              type="button"
+              id="button1"
+              onclick="window.location.href='https://www.youtube.com/watch?v=k3KqQvywToE&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=2'"
+            >
+              Lesson item 1
+            </button>
+          </li>
+          <li>
+            <button
+              type="button"
+              id="button2"
+              onclick="window.location.href='https://www.youtube.com/watch?v=yNbnA5pryMg&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=3'"
+            >
+              Lesson item 2
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <input type="text" placeholder="please give your review" />
+      </div>
+    </main>
 
-                  learning.
-                </video>
-                <div>
-                  <h2>Web Development full course series</h2>
-
-                  <p>Bibesh Pokharel | ★★★★★ 4.5</p>
-
-                  <button type="button">Continue Course</button>
-                </div>
-              </div>
-
-              <!-- Course sections -->
-              <div class="course-panel">
-                <header class="panel-header">
-                  <h3>Course content</h3>
-                </header>
-
-                <details class="section">
-                  <summary class="section-header">
-                    Section 1: Before web dev Journey
-                  </summary>
-
-                  <ul class="lesson-list">
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title">1. Course Introduction</span>
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title">2. Meet your Instructor</span>
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" checked />
-                        <span class="title">3. Lets talk about AI hype</span>
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" checked />
-                        <span class="title"
-                          >4. Jobs salary range and skills</span
-                        >
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title"
-                          >5. What tools you need for web development</span
-                        >
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title"
-                          >6. How to setup your code editor</span
-                        >
-                      </label>
-                    </li>
-                  </ul>
-                </details>
-
-                <!-- section 2 -->
-
-                <details class="section">
-                  <summary class="section-header">
-                    Section 2: Learn HTML
-                  </summary>
-
-                  <ul class="lesson-list">
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title">1. HTML Introduction</span>
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title"
-                          >2. Emmet headings , Block and Inline</span
-                        >
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" checked />
-                        <span class="title">3. Tables and forms</span>
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" checked />
-                        <span class="title"
-                          >4. Building a Sementic HTML Page</span
-                        >
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title"
-                          >5. Multimedia and Aria in HTML</span
-                        >
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title">6. Quiz on HTML</span>
-                      </label>
-                    </li>
-                  </ul>
-                </details>
-
-                <details class="section">
-                  <summary class="section-header">
-                    Section 3: Advanced CSS
-                  </summary>
-
-                  <ul class="lesson-list">
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title">1. CSS Introduction</span>
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title"
-                          >2. Type and current state of CSS</span
-                        >
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" checked />
-                        <span class="title"
-                          >3. MasterClass on CSS Selectors</span
-                        >
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" checked />
-                        <span class="title">4. Grid vs Flexbox</span>
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title"
-                          >5. Dropdown Navbar and Specificity</span
-                        >
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title">6. A Quiz on CSS</span>
-                      </label>
-                    </li>
-                  </ul>
-                </details>
-                <!-- section 4 -->
-                <details class="section">
-                  <summary class="section-header">
-                    Section 4: Java script
-                  </summary>
-
-                  <ul class="lesson-list">
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title">1. Course Introduction</span>
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title">2. Meet your Instructor</span>
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" checked />
-                        <span class="title">3. Lets talk about AI hype</span>
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" checked />
-                        <span class="title"
-                          >4. Jobs salary range and skills</span
-                        >
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title"
-                          >5. What tools you need for web development</span
-                        >
-                      </label>
-                    </li>
-
-                    <li>
-                      <label>
-                        <input type="checkbox" />
-                        <span class="title"
-                          >6. How to setup your code editor</span
-                        >
-                      </label>
-                    </li>
-                  </ul>
-                </details>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        <br />
-        <div id="learn">
-          <h2>What you'll learn</h2>
-
-          <ul>
-            <li>Learn the Basics of HTML5, CSS3, JavaScript and react.</li>
-            <li>Advanced CSS and JavaScript from beggining to pro-level.</li>
-            <li>
-              Real-World React Development Skills. You will gain practical
-              experience by building projects, integrating APIs, and following
-              best practices .
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h2>Course content</h2>
-          <ul>
-            <li>
-              <button
-                type="button"
-                id="button1"
-                onclick="window.location.href='https://www.youtube.com/watch?v=k3KqQvywToE&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=2'"
-              >
-                Lesson item 1
-              </button>
-            </li>
-            <li>
-              <button
-                type="button"
-                id="button2"
-                onclick="window.location.href='https://www.youtube.com/watch?v=yNbnA5pryMg&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=3'"
-              >
-                Lesson item 2
-              </button>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <input type="text" placeholder="please give your review" />
-        </div>
-      </main>
-    </div>
     <footer>
       <div>
         <div>
