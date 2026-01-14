@@ -1,6 +1,5 @@
 body {
   background-color: #dadee7;
- 
 }
 
 main {
@@ -10,12 +9,18 @@ main {
 
 /* index page */
 /* navigation */
+
 .nav-ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-left: 60px;
   font-weight: bolder;
+}
+
+.login-btn {
+  margin-left: 65rem;
+  text-decoration: none;
 }
 
 .nav-ul a {
