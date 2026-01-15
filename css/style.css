@@ -154,7 +154,7 @@ footer {
   margin: 16px 12px auto 16px;
   background: linear-gradient(to bottom, #57638e, #8396e6);
   padding: 2rem;
-  text-align: center;
+  text-align: left;
   border-radius: 16px;
 }
 
@@ -172,4 +172,10 @@ footer small {
   margin-top: 1rem;
   font-size: 0.8rem;
   color: #d1d1ff;
+  text-align: center;
+}
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
