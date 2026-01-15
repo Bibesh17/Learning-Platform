@@ -9,13 +9,11 @@
   <body>
     <header>
       <div>
-        <a>
-          <div>
-            <strong>Seema Academy</strong>
-            <small>Learn & Grow</small>
-          </div>
-        </a>
-
+        <div>
+          <strong>Seema Academy</strong>
+          <small>Learn & Grow</small>
+          <a href="Html pages/login_page.html" class="login-btn">User</a>
+        </div>
         <nav class="navigation" id="head-nav">
           <ul class="nav-ul">
             <li>
@@ -23,21 +21,21 @@
             </li>
 
             <li>
-              <a href="Html pages/courses.html">Courses</a>
+              <a href="../Html pages/courses.html">Courses</a>
             </li>
 
             <li>
-              <a href="Html pages/quiz.html">Quiz</a>
+              <a href="../Html pages/quiz.html">Quiz</a>
             </li>
             <li>
-              <a href="Html pages/dashboard.html">Dashboard</a>
+              <a href="../Html pages/dash.html">Dashboard</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <main class="index-main">
+    <main>
       <section class="section">
         <div>
           <h1>Learn with confidence — anytime, anywhere</h1>
@@ -62,29 +60,41 @@
       <br />
 
       <div id="figure">
-        <article>
-          <h4 class="h41">Why choose us?</h4>
-          <ul class="ul1">
+        <div id="offer">
+          <ul id="ul1">
+            Why choose us?
             <li>Experienced local instructors</li>
-            <br />
             <li>Flexible schedules</li>
-            <br />
             <li>Practical, project-based learning</li>
-            <br />
           </ul>
-        </article>
-        <figure>
+
+          <div class="offer-btn">
+            <h4 id="h41">Seema Subscription</h4>
+            <strong>Happy New Year</strong>
+
+            <img
+              src="../assets/new.png"
+              alt="newyear
+            "
+              id="new1"
+            />
+
+            <p>
+              Turn your Resoultions<br />
+              into results with 50% off<br />
+              On New Year
+            </p>
+            <button type="button">Save Now</button>
+          </div>
+        </div>
+
+        <div id="image1-div">
           <img src="../assets/neema.png" alt="Academy" />
-        </figure>
+        </div>
       </div>
 
       <section>
         <article>
-          <p>
-            <strong>
-              A short introduction to our courses and teaching approach.</strong
-            >
-          </p>
           <div id="video">
             <video controls>
               <source
@@ -93,6 +103,12 @@
               />
               learning.
             </video>
+            <p id="inde">
+              <strong>
+                A short introduction to our courses and teaching
+                approach.</strong
+              >
+            </p>
           </div>
         </article>
       </section>
@@ -101,35 +117,16 @@
     <footer>
       <div>
         <div>
-          <strong>Academy</strong>
+          <strong>Seema Academy</strong>
           <address>
             Surya Complex, Imadol, Kathmandu<br />
             <a href="tel:+9779829389034">+977 9829389034</a>
           </address>
-          <p>
-            <a href="https://www.linkedin.com/in/bibesh-pokharel-70557b2aa/"
-              >LinkedIn</a
-            >
-          </p>
+
+          <a href="https://www.linkedin.com/in/bibesh-pokharel-70557b2aa/"
+            >LinkedIn</a
+          >
         </div>
-        <div>
-          <!-- <div>
-          <input
-            type="search"
-            placeholder="search for anything"
-            id="coursesSearch"
-          />
-
-          <button type="submit">Search</button>
-        </div> -->
-
-          <a href="../index.html">
-            <div>
-              <button type="button">sign out</button>
-            </div>
-          </a>
-        </div>
-
         <nav>
           <div>
             <div style="display: flex; justify-content: space-around">
@@ -194,7 +191,7 @@
       </div>
 
       <div>
-        <small>© 2023 </small>
+        <small>© 2026 Seema Academy. All rights reserved.</small>
       </div>
     </footer>
   </body>

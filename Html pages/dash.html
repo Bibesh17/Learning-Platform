@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/dashboard.css" />
+  </head>
+
+  <body>
+    <div class="dashboard-wrapper">
+      <aside class="sidebar">
+        <h2>Seema Academy</h2>
+        <ul>
+          <li>Dashboard</li>
+          <li>Courses</li>
+          <li>Daily Quizzes</li>
+          <li>Progress Tracking</li>
+        </ul>
+      </aside>
+
+      <main class="dashboard-main">
+        <header class="dashboard-header">
+          <h1>Welcome back, User!</h1>
+          <div class="user-actions">
+            <span>User</span>
+            <button>Logout</button>
+          </div>
+        </header>
+
+        <section class="dashboard-cards">
+          <div class="card my-courses">
+            <h3>My Courses</h3>
+            <div class="course">
+              <span>English</span>
+              <progress value="0" max="100"></progress>
+              <button>Start Learning</button>
+            </div>
+            <div class="course">
+              <span>Computer</span>
+              <progress value="44" max="100"></progress>
+              <button>Continue Learning</button>
+            </div>
+          </div>
+
+          <div class="card daily-streak">
+            <h3>My Daily Streaks</h3>
+            <div class="streak">
+              <span>7 Days in a row!</span>
+              <div class="fire-icons">🔥🔥🔥🔥🔥🔥🔥</div>
+            </div>
+          </div>
+
+          <div class="card quick-actions">
+            <h3>Quick Actions</h3>
+            <div class="actions-grid">
+              <button>Daily Quiz</button>
+              <button>View Progress</button>
+              <button>Practice Test</button>
+              <button>Notifications</button>
+            </div>
+          </div>
+
+          <div class="card browse-courses">
+            <h3>Browse Courses</h3>
+            <input type="text" placeholder="Search Courses" />
+            <div class="course-tags">
+              <button>Web Development</button>
+              <button>React</button>
+              <button>JavaScript</button>
+              <button>cyber security</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>Seema Academy - Helping students learn smarter everyday.</p>
+      <div class="footer-links">
+        <a href="#">Courses</a>
+        <a href="#">Daily Quizzes</a>
+        <a href="#">Progress Tracking</a>
+      </div>
+      <small>© 2026 Seema Academy. All rights reserved.</small>
+    </footer>
+  </body>
+</html>
