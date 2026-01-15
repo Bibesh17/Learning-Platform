@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Progress</title>
     <link rel="stylesheet" href="../css/dashboard.css" />
   </head>
 
@@ -21,7 +21,7 @@
 
       <main class="dashboard-main">
         <header class="dashboard-header">
-          <h1>Welcome back, User!</h1>
+          <h1>Progress Tracking !</h1>
           <div class="user-actions">
             <span>User</span>
             <button onclick="window.location.href=('../index.html')">
@@ -30,36 +30,52 @@
           </div>
         </header>
 
+        <div id="progress">
+          <h2>
+            62% <br />
+            Average Progress
+          </h2>
+
+          <h2>
+            24 <br />
+            Lesson Completed
+          </h2>
+          <h2>
+            30h <br />
+            Total Study Time
+          </h2>
+        </div>
+
         <section class="dashboard-cards">
           <div class="card my-courses">
             <h3>My Courses</h3>
             <div class="course">
-              <span>Web Development</span>
+              <span>English</span>
               <progress value="0" max="100"></progress>
               <button>Start Learning</button>
             </div>
             <div class="course">
-              <span>React Crash Course</span>
+              <span>Computer</span>
               <progress value="44" max="100"></progress>
               <button>Continue Learning</button>
             </div>
           </div>
 
           <div class="card daily-streak">
-            <h3>My Daily Streaks</h3>
-            <div class="streak">
-              <span>7 Days in a row!</span>
-              <div class="fire-icons">🔥🔥🔥🔥🔥🔥🔥</div>
+            <div class="card my-courses">
+              <div class="course">
+                <span>Computer</span>
+                <progress value="44" max="100"></progress>
+                <button>Continue Learning</button>
+              </div>
             </div>
           </div>
 
-          <div class="card quick-actions">
-            <h3>Quick Actions</h3>
-            <div class="actions-grid">
-              <button>Daily Quiz</button>
-              <button>View Progress</button>
-              <button>Practice Test</button>
-              <button>Progress Tracking</button>
+          <div class="card my-courses">
+            <div class="course">
+              <span>Computer</span>
+              <progress value="44" max="100"></progress>
+              <button>Continue Learning</button>
             </div>
           </div>
 

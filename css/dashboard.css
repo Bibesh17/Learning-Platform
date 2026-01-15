@@ -221,3 +221,11 @@ footer small {
   font-size: 0.8rem;
   color: #d1d1ff;
 }
+
+/* progress */
+
+#progress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

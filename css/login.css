@@ -31,14 +31,16 @@ main {
   width: 25rem;
   border-top-right-radius: 16px;
   padding: 16px;
+  align-items: center;
 }
 
 input[type="text"],
 input[type="password"],
 input[type="email"],
 input[type="tel"] {
-  width: 20rem;
-  padding: 12px 14px;
+  width: 19rem;
+  padding: 12px;
+  padding-left: 1rem;
   margin-top: 4px;
   margin-bottom: 8px;
   border-radius: 10px;
@@ -58,9 +60,11 @@ label {
 button {
   width: 4rem;
   height: 2rem;
-  margin: 10px;
+  margin-top: 2rem;
   border-radius: 10px;
   cursor: grab;
+  margin-left: 8rem;
+  margin-bottom: 1rem;
 }
 
 button:hover {
@@ -93,8 +97,13 @@ select {
 }
 form {
   margin-top: 10px;
+  padding-left: 2rem;
 }
 
 p {
   color: whitesmoke;
+}
+
+.login h1 {
+  color: black;
 }

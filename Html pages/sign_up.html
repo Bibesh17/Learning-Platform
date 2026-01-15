@@ -8,66 +8,68 @@
   </head>
   <body>
     <main>
-      <h1>Sign up</h1>
-      <form action="../Html pages/logged_in.html" method="get">
-        <div>
-          <label for="firstname">First Name</label>
-          <input
-            type="text"
-            id="firstname"
-            name="firstname"
-            placeholder="Enter your name"
-            required
-          />
+      <div class="div">
+        <h1>Seema Academy</h1>
+        <p>
+          Join Thousands of students<br />
+          achieving their goals
+        </p>
+        <small>© 2026 Seema Academy. All rights reserved.</small>
+      </div>
+      <div class="login">
+        <h1>Sign up</h1>
+        <form action="../Html pages/logged_in.html" method="get">
+          <div>
+            <label for="firstname">First Name</label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Enter your name"
+              required
+            /><br />
 
-          <label for="Last_name">Last Name</label>
-          <input
-            type="text"
-            id="Last_name"
-            name="Last_name"
-            placeholder="Enter your last name"
-            required
-          />
-          <label for="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="Enter your password"
-            required
-          />
+            <label for="Last_name">Last Name</label>
+            <input
+              type="text"
+              id="Last_name"
+              name="Last_name"
+              placeholder="Enter your last name"
+              required
+            />
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
 
-          <!-- <label for="password">Confirm password</label>
-          <input
-            type="password"
-            id="C_password"
-            name="C_password"
-            placeholder="Confirm your password"
-            required -->
-          
-          <label for="phone">Phone Number</label>
-          <input
-            type="tel"
-            placeholder="enter your phone"
-            id="phone"
-            required
-            pattern="[0-9]{10}"
-          />
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              placeholder="enter your phone"
+              id="phone"
+              required
+              pattern="[0-9]{10}"
+            />
 
-          <label for="country">Country</label>
-          <select id="country" required>
-            <option>Nepal</option>
-            <option>india</option>
-            <option>china</option></select
-          ><br /><br />
-          <input type="checkbox" id="check2" required />
-          <label for="check2"
-            >I accept privacy policy and general conditions</label
-          >
-        </div>
-        
-        <button type="submit">Log in</button>
-      </form>
+            <label for="country">Country</label>
+            <select id="country" required>
+              <option>Nepal</option>
+              <option>india</option>
+              <option>china</option></select
+            ><br /><br />
+            <input type="checkbox" id="check2" required />
+            <label for="check2"
+              >I accept privacy policy and general conditions</label
+            >
+          </div>
+
+          <button type="submit">Log in</button>
+        </form>
+      </div>
     </main>
   </body>
 </html>
