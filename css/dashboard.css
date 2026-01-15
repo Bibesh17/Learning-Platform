@@ -8,6 +8,11 @@ body {
   min-height: 100vh;
 }
 
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
 .sidebar {
   width: 220px;
   background-color: #667aa9;
@@ -45,14 +50,12 @@ body {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 }
 
 .dashboard-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
 }
 
 .dashboard-header h1 {
@@ -228,4 +231,13 @@ footer small {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+strong {
+  font-size: 3rem;
+  font-style: oblique;
+}
+
+span {
+  opacity: 0.9;
 }
