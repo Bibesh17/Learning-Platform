@@ -3,7 +3,7 @@ body {
 }
 
 main {
-  padding: 8px; 
+  padding: 8px;
 }
 
 h1,
@@ -187,4 +187,9 @@ footer small {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(89, 111, 183);
 }
